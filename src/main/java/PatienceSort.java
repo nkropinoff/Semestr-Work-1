@@ -10,7 +10,6 @@ public class PatienceSort {
 
         List<Stack<Integer>> piles = new ArrayList<>();
         for (int e : array) {
-            countOfIterations++;
             int index = binarySearch(piles, e);
 
             if (index == piles.size()) {
